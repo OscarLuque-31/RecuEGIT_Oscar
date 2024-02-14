@@ -22,23 +22,16 @@ public class Calculadora {
         System.out.print("Introduzca el primer numero:");
         int numeroUno = Integer.parseInt(sc.nextLine());
         System.out.print("Introduzca el segundo numero: ");
-        int numeroDos = Integer.parseInt(sc.nextLine());
-        
+        int numeroDos = Integer.parseInt(sc.nextLine());        
         System.out.println( suma(numeroUno,numeroDos));
-
-        
+   
       }else if(continuar == 2) {
         System.out.print("Introduzca el primer numero:");
+        int numeroUno = Integer.parseInt(sc.nextLine());
         System.out.print("Introduzca el segundo numero: ");
-      }
-      
-      
-      
+        int numeroDos = Integer.parseInt(sc.nextLine());        
+        System.out.println( resta(numeroUno,numeroDos));      }
     }
-    
-    
-    
-
   }
 
   
@@ -46,7 +39,7 @@ public class Calculadora {
     return (numeroUno + numeroDos);
   }
   
-  private int resta(int numeroUno,int numeroDos) {
+  private static int resta(int numeroUno,int numeroDos) {
     return (numeroUno - numeroDos);
   }
 }
