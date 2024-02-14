@@ -12,7 +12,7 @@ public class Calculadora {
     int continuar = 1;
     while(continuar != 0){
       System.out.println("CALCULADORA");
-      System.out.println("-----------");
+      System.out.println("------------");
       System.out.println("1.Suma");
       System.out.println("2.Resta");
       System.out.println("0.Salir de la aplicación");
